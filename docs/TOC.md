@@ -5,29 +5,26 @@
 ## [Use a package](Quickstart/Use-a-Package.md)
 ## [Finding and choosing packages](Consume-Packages/Finding-and-Choosing-Packages.md)
 # Tutorials
-## Create NET Standard packages with Visual Studio 2017
-### [01: Overview and workflow](Create-Packages/Overview-and-Workflow.md)
-### [Creating a Package (factor out)](Create-Packages/Creating-a-Package.md)
-### 02: Create the code assembly
-### 03: Create the package's folder structure
-### 04: Create the .nuspec file
-### 05: Packing
-### [06: Publishing the package](Create-Packages/Publish-a-package.md)
-### 07: Reference project properties from the .nuspec
-### 08: Add additional files
-### 09: Explore additional package options
 ## Consuming packages
 ### [01: Overview and Workflow](Consume-Packages/Overview-and-Workflow.md)
-### [02: Installing packages]
+### 02: Installing packages
 ### [03: Reinstalling and Updating Packages](Consume-Packages/Reinstalling-and-Updating-Packages.md)
 ### [04: Package Restore](Consume-Packages/Package-Restore.md)
-## [Create NET Standard Packages (Visual Studio 2017)](Guides/Create-NET-Standard-Packages-VS2017.md)
-## [Create NET Standard Packages (Visual Studio 2015)](Guides/Create-NET-Standard-Packages-VS2015.md)
-## [Create UWP Packages](Guides/Create-UWP-Packages.md)
-## [Creating UWP Controls as NuGet Packages](Guides/Create-UWP-Controls.md)
-## [Create Cross-Platform Packages](Guides/Create-Cross-Platform-Packages.md)
-## [Query for all packages using the API](Guides/api/query-for-all-published-packages.md)
+## Create a package with Visual Studio 2017 (part 1)
+### [01: Overview and workflow](Create-Packages/Overview-and-Workflow.md)
+### [Creating a Package (factor out)](Create-Packages/Creating-a-Package.md)
+### 02: Build the code assembly
+### 03: Create the package's folder structure
+### 04: Generate and edit the .nuspec file
+### 05: Packing
+## Create a package with Visual Studio 2017 (part 2)
+### 01: Reference project properties from the .nuspec
+### 02: Add additional files
+### 03: Explore additional package options
+## [Publishing a package](Create-Packages/Publish-a-package.md)
+## [Using the NuGet API](Guides/api/query-for-all-published-packages.md)
 # Concepts
+## Role of the .nuspec manifest
 ## Package reference formats
 ### [Package References in project files](Consume-Packages/Package-References-in-Project-Files.md)
 ## [Package Versioning](reference/package-versioning.md)
@@ -44,17 +41,28 @@
 ## [Configure NuGet Behavior](Consume-Packages/Configuring-NuGet-Behavior.md)
 ## [Manage the NuGet Cache](Consume-Packages/Managing-the-NuGet-Cache.md)
 ## [Troubleshoot package restore errors](Consume-Packages/Package-restore-troubleshooting.md)
-## Creating Packages
-### [Support Multiple Target Frameworks](Create-Packages/Supporting-Multiple-Target-Frameworks.md)
-### [Source and Config File Transformations](Create-Packages/Source-and-Config-File-Transformations.md)
-### [Create Localized Packages](Create-Packages/Creating-Localized-Packages.md)
-### [Prerelease Packages](Create-Packages/Prerelease-Packages.md)
-### [Native Packages](Create-Packages/Native-Packages.md)
-### [Symbol Packages](Create-Packages/Symbol-Packages.md)
-## Hosting packages
-### [Hosting overview](Hosting-Packages/Overview.md)
-### [Local seeds](Hosting-Packages/Local-Feeds.md)
+## Create Packages
+### Generate a .nuspec file
+### Add content files to a package
+### Include MSBuild props and targets
+### [Support multiple target frameworks](Create-Packages/Supporting-Multiple-Target-Frameworks.md)
+### [Include source and config file transformations](Create-Packages/Source-and-Config-File-Transformations.md)
+### Include COM interop assemblies
+### [Localized packages](Create-Packages/Creating-Localized-Packages.md)
+### [Prerelease packages](Create-Packages/Prerelease-Packages.md)
+### [Symbol packages](Create-Packages/Symbol-Packages.md)
+### [Native packages](Create-Packages/Native-Packages.md)
+### [Create UWP Packages and Controls](Guides/Create-UWP-Packages.md)
+#### [Creating UWP Controls as NuGet Packages](Guides/Create-UWP-Controls.md)
+### [Create Cross-Platform Packages (Xamarin)](Guides/Create-Cross-Platform-Packages.md)
+## [Host packages (custom feeds)](Hosting-Packages/Overview.md)
+### [Local feeds](Hosting-Packages/Local-Feeds.md)
 ### [NuGet.Server](Hosting-Packages/nuget-Server.md)
+## Use NuGet in custom Visual Studio projects and templates
+## [NuGet API in Visual Studio](Visual-Studio-Extensibility/nuget-API-in-Visual-Studio.md)
+## [Project System Support](Visual-Studio-Extensibility/Project-System-Support.md)
+## [Visual Studio Templates](Visual-Studio-Extensibility/Visual-Studio-Templates.md)
+## [NuGet Credential Providers for Visual Studio](Reference/extensibility/nuget-Credential-Providers-for-Visual-Studio.md)
 # Reference
 ## [Package Manager UI](Tools/Package-Manager-UI.md)
 ## [Package Manager Console](Tools/Package-Manager-Console.md)
@@ -111,11 +119,6 @@
 ## [Report Abuse URL](API/report-abuse-resource.md)
 ## [Catalog](API/catalog-resource.md)
 ## [nuget.org Protocols](API/nuget-protocols.md)
-# Visual Studio Extensibility
-## [NuGet API in Visual Studio](Visual-Studio-Extensibility/nuget-API-in-Visual-Studio.md)
-## [Project System Support](Visual-Studio-Extensibility/Project-System-Support.md)
-## [Visual Studio Templates](Visual-Studio-Extensibility/Visual-Studio-Templates.md)
-## [NuGet Credential Providers for Visual Studio](Reference/extensibility/nuget-Credential-Providers-for-Visual-Studio.md)
 # [GitHub Repositories](https://github.com/NuGet)
 # Release Notes
 ## [Known Issues](release-notes/known-issues.md)
